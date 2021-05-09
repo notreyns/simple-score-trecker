@@ -14,21 +14,38 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-    int total=0;
-    public void plusThree(View view){
-        total+=3;
-        displayForTeamA(total);
+    int totalA=0;
+    public void plusThreeA(View view){
+        totalA+=3;
+        displayForTeamA(totalA);
     }
-    public void plusTwo(View view){
-        total+=2;
-        displayForTeamA(total);
+    public void plusTwoA(View view){
+        totalA+=2;
+        displayForTeamA(totalA);
     }
-    public void plusOne(View view){
-        total++;
-        displayForTeamA(total);
+    public void plusOneA(View view){
+        totalA++;
+        displayForTeamA(totalA);
+    }
+    int totalB=0;
+    public void plusThreeB(View view){
+        totalB+=3;
+        displayForTeamB(totalB);
+    }
+    public void plusTwoB(View view){
+        totalB+=2;
+        displayForTeamB(totalB);
+    }
+    public void plusOneB(View view){
+        totalB++;
+        displayForTeamB(totalB);
     }
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+        scoreView.setText(String.valueOf(score));
+    }
+    public void displayForTeamB(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
 

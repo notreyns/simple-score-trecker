@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1">
@@ -38,25 +38,25 @@
             android:layout_height="wrap_content"
             android:text="+3 points"
             android:layout_margin="8dp"
-            android:onClick="plusThree"/>
+            android:onClick="plusThreeA"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 points"
             android:layout_margin="8dp"
-            android:onClick="plusTwo"/>
+            android:onClick="plusTwoA"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="free throw"
             android:layout_margin="8dp"
-            android:onClick="plusOne"/>
+            android:onClick="plusOneA"/>
 
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1">
@@ -85,21 +85,21 @@
             android:layout_height="wrap_content"
             android:text="+3 points"
             android:layout_margin="8dp"
-            android:onClick="plusThree"/>
+            android:onClick="plusThreeB"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 points"
             android:layout_margin="8dp"
-            android:onClick="plusTwo"/>
+            android:onClick="plusTwoB"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="free throw"
             android:layout_margin="8dp"
-            android:onClick="plusOne"/>
+            android:onClick="plusOneB"/>
 
     </LinearLayout>
     </LinearLayout>
